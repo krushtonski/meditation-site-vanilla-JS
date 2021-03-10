@@ -33,7 +33,7 @@ sounds.forEach(sound =>{
 // Select sound
 timeSelect.forEach(option =>{
     option.addEventListener('click',function(){
-    fakeDuration = this.getAttribute("data-time");
+    fakeDuration = this.getAttribute(`data-time`);
     timeDisplay.textContent = `${Math.floor(fakeDuration/60)}:${Math.floor(fakeDuration % 60)};`
     });
 });
