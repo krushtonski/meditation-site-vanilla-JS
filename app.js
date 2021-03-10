@@ -12,7 +12,7 @@ const app = () => {
 
 // Duration
     const timeSelect = document.querySelectorAll('.time-select button');
-    let fakeDuration = 300;
+    let fakeDuration = 180;
     outline.style.strokeDasharray = outlineLength;
     outline.style.strokeDashoffset = outlineLength;
     timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
