@@ -16,8 +16,7 @@ const app = () => {
     outline.style.strokeDasharray = outlineLength;
     outline.style.strokeDashoffset = outlineLength;
     timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
-  fakeDuration % 60
-)}`;
+  fakeDuration % 60)}`;
 // Pick different sounds
 sounds.forEach(sound =>{
     sound.addEventListener('click',function(){
@@ -62,6 +61,9 @@ const checkPlaying = song =>{
 // Animate the text
     if (seconds < 10) {
     seconds = `0${seconds}`;
+    }
+    if (seconds = 00) {
+    seconds = `00`;
     }
     timeDisplay.textContent = `${minutes}:${seconds}`;
     if(currentTime >= fakeDuration){

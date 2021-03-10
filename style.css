@@ -68,11 +68,11 @@ video {
   padding: 30px;
 }
 .sound-picker button:nth-child(1) {
-  background: #a14f49;
+  background: #ff895d;
   border-radius: 50%;
 }
 .sound-picker button:nth-child(2) {
-  background: #4972a1;
+  background: #007cb9;
   border-radius: 50%;
 }
 
