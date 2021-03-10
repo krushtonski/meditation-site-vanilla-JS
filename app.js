@@ -62,9 +62,6 @@ const checkPlaying = song =>{
     if (seconds < 10) {
     seconds = `0${seconds}`;
     }
-    if (seconds = 00) {
-    seconds = `00`;
-    }
     timeDisplay.textContent = `${minutes}:${seconds}`;
     if(currentTime >= fakeDuration){
         song.pause();
