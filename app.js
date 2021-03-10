@@ -56,7 +56,8 @@ const checkPlaying = song =>{
     let elapsed = fakeDuration - currentTime;
     let seconds = Math.floor(elapsed % 60);
     let minutes = Math.floor(elapsed / 60);
-
+  }
+  
 // Animate the circle to denote time elapsed
     let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
     outline.style.strokeDashoffset = progress;
