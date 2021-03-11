@@ -2,27 +2,21 @@
   .app {
     flex-direction: column;
   }
-  .player-container {
-    background-color: aquamarine;
+  .time-select {
     width: 100%;
   }
-  .time-select,
-  .player-container,
-  .sound-picker {
-    flex-direction: row;
+  .player-container {
+    background-color: black;
+    width: 100%;
   }
-  .time-select button {
-    font-size: 16px;
-  }
-  .sound-picker button {
-    height: 30px;
-    width: 378 70px;
+  .play {
+    height: 60px;
+    width: 60px;
   }
   video {
     display: none;
   }
 }
-
 * {
   margin: 0;
   padding: 0;
