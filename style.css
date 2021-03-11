@@ -118,3 +118,8 @@ video {
   height: 100%;
   opacity: 90%;
 }
+p {
+  color: white;
+  margin-left: 180px;
+  margin-bottom: 180px;
+}
