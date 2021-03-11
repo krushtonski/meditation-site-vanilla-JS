@@ -8,6 +8,7 @@
   .player-container {
     background-color: #ff895d;
     width: 100%;
+    font-size: 18px;
   }
   .play {
     height: 60px;
@@ -15,12 +16,6 @@
   }
   video {
     display: none;
-  }
-  .time-display {
-    font-size: 18px;
-  }
-  h3 {
-    font-size: 18px;
   }
 }
 * {
