@@ -6,7 +6,7 @@
     width: 100%;
   }
   .player-container {
-    background-color: black;
+    background-color: #ff895d;
     width: 100%;
   }
   .play {
@@ -15,6 +15,9 @@
   }
   video {
     display: none;
+  }
+  h3 {
+    font-size: 18px;
   }
 }
 * {
