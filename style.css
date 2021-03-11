@@ -16,7 +16,7 @@
   }
   .sound-picker button {
     height: 30px;
-    width: 30px;
+    width: 378 70px;
   }
   video {
     display: none;
@@ -81,16 +81,16 @@ video {
   transition: all 0.5s ease;
 }
 .time-select button {
-  background-color: #005689;
+  background-color: #007cb9;
   font-weight: bold;
   font-size: 18px;
   opacity: 90%;
   box-shadow: 1px 1px 1px #005689;
 }
 .time-select button:hover {
-  background-color: #007cb9;
+  background-color: #005689;
   opacity: 90%;
-  border: 2px solid #007cb9;
+  border: 2px solid #005689;
 }
 .sound-picker button {
   border: none;
@@ -104,11 +104,19 @@ video {
 .sound-picker button:nth-child(1) {
   background: #ff895d;
   border-radius: 50%;
-  box-shadow: 1px 1px 1px #005689;
+  box-shadow: 1px 1px 1px #f5d547;
+}
+.sound-picker button:nth-child(1):hover {
+  background: #f5d547;
+  box-shadow: 1px 1px 1px #ff895d;
 }
 .sound-picker button:nth-child(2) {
   background: #007cb9;
   border-radius: 50%;
+  box-shadow: 1px 1px 1px #005689;
+}
+.sound-picker button:nth-child(2):hover {
+  background: #005689;
   box-shadow: 1px 1px 1px #005689;
 }
 .sound-picker button img {
